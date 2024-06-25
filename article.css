@@ -1,7 +1,18 @@
-@media (min-width: 768px){
-    .article-main-header {
-        padding: 3em;
-    }
+.article-image1 {
+    padding: 1em;
+    width: 100%;
+    height: 100%;
+}
 
+
+@media (min-width: 768px){
+    .distance {
+        padding: 4em 10em 0 10em;
+    }  
     
+    .article-image1 {
+        width: 1300px;
+        height: 800px;
+        margin: 0 auto;
+    }
 }
