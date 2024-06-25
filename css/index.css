@@ -45,7 +45,7 @@ a {
 
 .hero {
     position: relative;
-    background-image: url('images/hero.png');
+    background-image: url('../images/hero.png');
     color: white;
     background-size: cover;
     background-repeat: no-repeat;
@@ -98,17 +98,18 @@ footer {
 .article {
     display: flex;
     flex-direction: column;
+    padding-bottom: 1em;
     gap: 1em;
 }
 
+
+
 .recent {
+    cursor: pointer;
     align-self: center;
     text-align: center;
 }
 
-article {
-    padding-bottom: 1em;
-}
 
 
 .text {
@@ -123,6 +124,12 @@ article {
 
 
 @media (min-width: 768px) {
+    
+    article img {
+        width: 450px;
+        height: 300px;
+    }
+    
     .header {
         font-size: 1.3em;
         padding: 1rem 3rem;
@@ -133,7 +140,7 @@ article {
     }
 
     .hero {
-        background-image: url('images/desktop-hero.png');
+        background-image: url('../images/desktop-hero.png');
         height: 80vh;
     }
 
